@@ -88,6 +88,7 @@ div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
     height: 40vw;
    background-size: 100vw;
+<<<<<<< HEAD
 }
 div.topo{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://blog.unifil.br/wp-content/uploads/post-grad-research-1024x576.jpg");
@@ -97,3 +98,9 @@ div.topo{
 /*///////////////////////////
             Geral
 ///////////////////////////*/
+=======
+   border-bottom: solid black 6vw;
+}section main h1{
+    text-align: center;
+}
+>>>>>>> 385406a (gostei :0)
