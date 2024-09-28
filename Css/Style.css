@@ -46,10 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*///////////////////////////
+            Geral
+///////////////////////////*/
+
 ul li a {
     text-decoration: none;
     color:white;
 }
+
+/*///////////////////////////
+            Header
+///////////////////////////*/
 
 header nav ul li.cor{
     color:blue;
@@ -80,3 +89,11 @@ div.banner{
     height: 40vw;
    background-size: 100vw;
 }
+div.topo{
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://blog.unifil.br/wp-content/uploads/post-grad-research-1024x576.jpg");
+    height: 40vw;
+   background-size: 100vw;
+}
+/*///////////////////////////
+            Geral
+///////////////////////////*/
