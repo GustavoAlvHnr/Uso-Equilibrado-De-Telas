@@ -46,16 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a {
+ul li a {
     text-decoration: none;
-    color: aliceblue;
+    color:white;
 }
 
-header nav ul li span a{
-    color: black;
+header nav ul li.cor{
+    color:blue;
 }
-
-
+#cor{
+    color: blue;
+}
 header{
     background-color: black;
     display: flex;
