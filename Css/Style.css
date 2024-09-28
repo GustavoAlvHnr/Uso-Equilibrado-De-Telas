@@ -96,6 +96,12 @@ div.topo{
    background-size: 100vw;
    border-bottom: solid black 6vw;
 }
+div.cima{
+    background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("https://blog.eyecarehealth.com.br/wp-content/uploads/2021/12/O-uso-excessivo-de-tela-prejudica-a-saude-ocular-1.jpg");
+    height: 40vw;
+   background-size: 100vw;
+   border-bottom: solid black 6vw;
+}
 /*///////////////////////////
             Geral
 ///////////////////////////*/
