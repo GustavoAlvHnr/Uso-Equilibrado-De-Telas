@@ -47,18 +47,30 @@ table {
 	border-spacing: 0;
 }
 
-/*///////////////////////////
-            Geral
-///////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////
+                                    GERAL
+///////////////////////////////////////////////////////////////////////*/
+HTML{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 1vw);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+main {
+	margin: 0 20vw 0 20vw;
+}
 
 ul li a {
     text-decoration: none;
     color:white;
 }
 
-/*///////////////////////////
-            Header
-///////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////
+                                    HEADER
+///////////////////////////////////////////////////////////////////////*/
 
 header nav ul li.cor{
     color:blue;
@@ -90,9 +102,9 @@ div.banner{
    background-size: 100vw;
    border-bottom: solid black 6vw;
 }
-/*///////////////////////////
-            Topo
-///////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////
+                                    TOPO
+///////////////////////////////////////////////////////////////////////*/
 section main {
     text-align: center;
 }
@@ -111,53 +123,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/*///////////////////////////
-            Geral
-///////////////////////////*/
-
-ul li a {
-    text-decoration: none;
-    color:white;
-}
-
-/*///////////////////////////
-            Header
-///////////////////////////*/
-
-header nav ul li.cor{
-    color:blue;
-}
-#cor{
-    color: blue;
-}
-header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-header nav{
-    display: flex;
-    justify-content: right;
-}
-header nav ul{
-    display: flex;
-    margin: 37px;
-}
-header nav ul li{
-    padding: 0px 10px 10px 10px;
-}
-
-
-div.banner{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
-    height: 40vw;
-   background-size: 100vw;
-   border-bottom: solid black 6vw;
-}
-/*///////////////////////////
-            Topo
-///////////////////////////*/
 section main {
     text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////
+                                    CONTEUDO
+///////////////////////////////////////////////////////////////////////*/
+main section.rotine {
+    display: flex;
+    padding: 10vw 0 10vw 0;
+    
+}
+main section.rotine div h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 0 0vw 2vw;
+}
+main section.rotine div p {
+    padding: 2vw 2vw 5vw 2vw;
+}
+main section.rotine div ul li {
+    margin: 0 0 2vw 5vw;
+}
+main section.rotine div ul li h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 0 2vw 0 0;
+}
+main section.rotine div ul li h2 span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 0 2vw 0 0;
+    color: #dedede;
+}
+main section.rotine div ul li a img {
+    border-radius: 1vw;
+    margin: 2vw 8vw 0 8vw;
 }
