@@ -52,7 +52,6 @@ table {
 ///////////////////////////////////////////////////////////////////////*/
 HTML{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(10px + 1vw);
 }
 a{
     color: black;
@@ -65,6 +64,9 @@ main {
 ul li a {
     text-decoration: none;
     color:white;
+}
+main{
+    font-size: calc(10px + 1vw)
 }
 
 
