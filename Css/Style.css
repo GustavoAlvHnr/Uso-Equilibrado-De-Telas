@@ -168,6 +168,13 @@ section main {
             Footer
 ///////////////////////////*/
 footer{
+    padding: 8vw 0 3vw 0;
+    text-align: center;
+}
+footer ul.icon{
     display: flex;
-    
+    justify-content: center;
+}
+footer ul.icon li{
+    padding: 10px 10px 0 10px;
 }
