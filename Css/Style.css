@@ -168,10 +168,12 @@ section main {
             Footer
 ///////////////////////////*/
 footer{
-    padding: 8vw 0 3vw 0;
+    padding: 2vw 0 3vw 0;
     text-align: center;
     background-color: black;
     color: #ffffff;
+    border-color: #ffffff;
+    border-top: 10vw solid #ffffff;
 }
 footer ul.icon{
     display: flex;
