@@ -150,7 +150,7 @@ header nav ul li{
 
 
 div.banner{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://blog.eyecarehealth.com.br/wp-content/uploads/2021/12/O-uso-excessivo-de-tela-prejudica-a-saude-ocular-1.jpg");
     height: 40vw;
    background-size: 100vw;
    border-bottom: solid black 6vw;
@@ -158,6 +158,82 @@ div.banner{
 /*///////////////////////////
             Topo
 ///////////////////////////*/
-section main {
+section div.par1 {
+   text-align: center;
+   margin: 2vw 10vw 2vw 10vw;
+}
+section div.par1 h1{
+   font-size: 3rem;
+   font-weight: bold;
+   margin: 3vw 0 3vw 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section div.par1 p{
+    margin: 3vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+section div.par1 p span{
+    font-weight: bold;
+
+}
+section div.par1 div.alt{
+    display: flex;
+}
+section div.par1 div.alt img{
+    margin: 3vw 0 0 0;
+}
+/*///////////////////////////
+            par2
+///////////////////////////*/
+section div.par2{
     text-align: center;
+    margin: 2vw 10vw 2vw 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section div.par2 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:3vw  0 3vw 0 ;
+}
+div.par2 p{
+    margin: 3vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+div.par2 div.alt2{
+    display: flex;
+}
+div.par2 div.alt2 img{
+    margin: 4vw 0 0 0;
+}
+section div.par2 p span{
+    font-weight: bold;
+}
+/*///////////////////////////
+            par
+///////////////////////////*/
+section div.par3{
+    text-align: center;
+    margin: 2vw 10vw 2vw 10vw;
+}
+section div.par3 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:3vw  0 3vw 0 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.par3 p{
+    margin: 3vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+div.par3 div.alt3{
+    display: flex;
+}
+div.par3 div.alt3 img{
+    margin: 3vw 0 0 0;
+}
+section div.par3 p span{
+    font-weight: bold;
 }
