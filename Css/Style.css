@@ -121,6 +121,12 @@ ul li a {
     text-decoration: none;
     color:white;
 }
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    font-size: calc(10px + 1vw);
+}
 
 /*///////////////////////////
             Header
