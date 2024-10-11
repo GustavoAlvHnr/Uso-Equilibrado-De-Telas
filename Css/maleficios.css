@@ -239,3 +239,21 @@ div.par3 div.alt3 img{
 section div.par3 p span{
     font-weight: bold;
 }
+/*///////////////////////////
+            Footer
+///////////////////////////*/
+footer{
+    padding: 2vw 0 3vw 0;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-top: 10vw solid #ffffff;
+}
+footer ul.icon{
+    display: flex;
+    justify-content: center;
+}
+footer ul.icon li{
+    padding: 10px 10px 0 10px;
+}
