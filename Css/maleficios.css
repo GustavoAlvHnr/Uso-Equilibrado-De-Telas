@@ -161,6 +161,7 @@ div.banner{
 section div.par1 {
    text-align: center;
    margin: 2vw 10vw 2vw 10vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 section div.par1 h1{
    font-size: 3rem;
@@ -216,6 +217,7 @@ section div.par2 p span{
 section div.par3{
     text-align: center;
     margin: 2vw 10vw 2vw 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 section div.par3 h2{
     font-size: 2rem;
