@@ -192,7 +192,6 @@ section.s5 div.p1 p{
     margin-left: 20px;
     margin-bottom: 10px;
 }
-section.s0 
 
 /*///////////////////////////
             Footer
@@ -204,6 +203,7 @@ footer{
     color: #ffffff;
     border-color: #ffffff;
     border-top: 10vw solid #ffffff;
+    border-bottom: solid black 2.9vw;
 }
 footer ul.icon{
     display: flex;
@@ -212,4 +212,3 @@ footer ul.icon{
 footer ul.icon li{
     padding: 10px 10px 0 10px;
 }
-
