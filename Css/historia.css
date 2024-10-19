@@ -165,11 +165,21 @@ section main {
     text-align: center;
 }
 
-section h1{
+section.topo h1{
     font-size: 2rem;
     text-align: center;
-    padding: 1vw 0 1vw 0;
+    padding: 3vw 0 5vw 0;
 }
+
+/*///////////////////////////
+            historia
+///////////////////////////*/
+section.Historia p{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem
+}
+
 
 
 /*///////////////////////////
