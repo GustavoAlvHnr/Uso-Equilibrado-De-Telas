@@ -99,10 +99,7 @@ header nav ul li{
 
 
 div.banner{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
-    height: 40vw;
-   background-size: 100vw;
-   border-bottom: solid black 6vw;
+  
 }
 /*///////////////////////////////////////////////////////////////////////
                                     TOPO
@@ -132,19 +129,22 @@ section main {
 /*///////////////////////////////////////////////////////////////////////
                                     CONTEUDO
 ///////////////////////////////////////////////////////////////////////*/
-main section.rotine {
+main section.rotine div.alt {
     display: flex;
-    padding: 10vw 0 10vw 0;
-    
+    padding: 6vw 0 3vw 0;   
 }
-main section.rotine div h1 {
+main section.rotine h1 {
     display: flex;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0 0 0vw 2vw;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    margin: 7vw 0 0 5vw;
+    text-align: center;
 }
 main section.rotine div p {
-    padding: 2vw 2vw 5vw 2vw;
+    padding: 2vw 2vw 1vw 2vw;
 }
 main section.rotine div ul li {
     margin: 0 0 2vw 5vw;
@@ -177,10 +177,11 @@ footer{
     border-color: #ffffff;
     border-top: 10vw solid #ffffff;
 }
-footer ul.icon{
+footer p a{
     display: flex;
     justify-content: center;
+    color: white;
 }
-footer ul.icon li{
+footer p a{
     padding: 10px 10px 0 10px;
 }
