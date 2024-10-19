@@ -181,6 +181,7 @@ section.Historia p{
     text-align: center;
     font-size: 1.3rem;
     line-height: 2vw;
+    text-wrap: pretty;
 }
 
 /*///////////////////////////
