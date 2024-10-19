@@ -55,6 +55,9 @@ ul li a {
     text-decoration: none;
     color:white;
 }
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /*///////////////////////////
             Header
