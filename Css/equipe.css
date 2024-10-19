@@ -192,6 +192,7 @@ section.referencia ul{
     text-align: center;
     padding: 0 4vw 0 4vw;
     text-wrap: balance;
+    line-height: 2vw;
 }
 section.referencia ul li a{
     color: darkslategray;
