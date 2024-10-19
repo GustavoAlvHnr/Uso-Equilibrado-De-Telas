@@ -51,7 +51,7 @@ table {
             Geral
 ///////////////////////////*/
 
-ul li a {
+a {
     text-decoration: none;
     color:white;
 }
@@ -163,6 +163,24 @@ div.banner{
 ///////////////////////////*/
 section main {
     text-align: center;
+}
+
+section.topo h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 3vw 0 5vw 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*///////////////////////////
+            historia
+///////////////////////////*/
+section.Historia p{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2vw;
 }
 
 /*///////////////////////////

@@ -51,7 +51,7 @@ table {
             Geral
 ///////////////////////////*/
 
-ul li a {
+a {
     text-decoration: none;
     color:white;
 }
@@ -169,6 +169,7 @@ section div.par1 h1{
    font-size: 3rem;
    font-weight: bold;
    margin: 3vw 0 3vw 0;
+   font-family: 'Times New Roman', Times, serif;
 }
 section div.par1 p{
     margin: 3vw;
@@ -196,6 +197,7 @@ section div.par2 h2{
     font-size: 2rem;
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
+    font-family: 'Times New Roman', Times, serif;
 }
 div.par2 p{
     margin: 3vw;
@@ -222,6 +224,7 @@ section div.par3 h2{
     font-size: 2rem;
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
+    font-family: 'Times New Roman', Times, serif;
 }
 div.par3 p{
     margin: 3vw;
