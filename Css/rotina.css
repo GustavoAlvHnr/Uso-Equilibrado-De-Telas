@@ -61,7 +61,7 @@ main {
 	margin: 0 20vw 0 20vw;
 }
 
-ul li a {
+a {
     text-decoration: none;
     color:white;
 }
