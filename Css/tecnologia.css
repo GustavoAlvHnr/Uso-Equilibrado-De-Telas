@@ -161,3 +161,27 @@ div.banner{
 section main {
     text-align: center;
 }
+section.s5 h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 20px;
+}
+section.s5 p.p9{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+section.s5 div.imgtext{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+section.s5 div.p1 p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
