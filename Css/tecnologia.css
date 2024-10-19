@@ -55,6 +55,10 @@ ul li a {
     text-decoration: none;
     color:white;
 }
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 /*///////////////////////////
             Header
@@ -116,7 +120,7 @@ table {
             Geral
 ///////////////////////////*/
 
-ul li a {
+a {
     text-decoration: none;
     color:white;
 }
@@ -161,6 +165,7 @@ div.banner{
 section main {
     text-align: center;
 }
+<<<<<<< HEAD
 section.s5 h1 {
     text-align: center;
     font-size: 1.9rem;
@@ -185,3 +190,23 @@ section.s5 div.p1 p{
 
 
 
+=======
+/*///////////////////////////
+            Footer
+///////////////////////////*/
+footer{
+    padding: 2vw 0 3vw 0;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-top: 10vw solid #ffffff;
+}
+footer ul.icon{
+    display: flex;
+    justify-content: center;
+}
+footer ul.icon li{
+    padding: 10px 10px 0 10px;
+}
+>>>>>>> 401850f6042d69ee49edb26b39d0ad342159df0f
