@@ -147,7 +147,7 @@ main section.rotine div ul li h2 {
     font-weight: bold;
     font-size: 1.5rem;
     display: flex;
-    padding: 0 2vw 0 0;
+    padding: 0 2vw 2vw 0;
 }
 main section.rotine div ul li h2 span {
     font-weight: bold;
@@ -160,9 +160,9 @@ main section.rotine div ul li a img {
     border-radius: 1vw;
     margin: 2vw 8vw 0 8vw;
 }
-/*///////////////////////////
-            Footer
-///////////////////////////*/
+/*////////////////////////////////////////////////////////////////////
+                                Footer
+////////////////////////////////////////////////////////////////////*/
 footer{
     padding: 2vw 0 3vw 0;
     text-align: center;
