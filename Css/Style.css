@@ -174,10 +174,11 @@ main h1.grande1{
 main h1{
     text-align: center;
     font-size: 35px;
+    padding-top: 20px;
 }
 main P{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 main div{
     text-align: center;
