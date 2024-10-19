@@ -177,10 +177,11 @@ section.topo h1{
             historia
 ///////////////////////////*/
 section.Historia p{
-    padding: 10px;
+    padding: 10px 3vw 10px 3vw;
     text-align: center;
     font-size: 1.3rem;
     line-height: 2vw;
+    text-wrap: pretty;
 }
 
 /*///////////////////////////
@@ -193,6 +194,7 @@ footer{
     color: #ffffff;
     border-color: #ffffff;
     border-top: 10vw solid #ffffff;
+    border-bottom: solid black 2.9vw;
 }
 footer ul.icon{
     display: flex;

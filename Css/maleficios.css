@@ -184,7 +184,7 @@ section div.par1 div.alt{
     display: flex;
 }
 section div.par1 div.alt img{
-    margin: 7vw 0 0 0;
+    margin: 3vw 0 0 0;
 }
 /*///////////////////////////
             par2
@@ -208,7 +208,7 @@ div.par2 div.alt2{
     display: flex;
 }
 div.par2 div.alt2 img{
-    margin: 7vw 0 0 0;
+    margin: 5vw 0 0 0;
 }
 section div.par2 p span{
     font-weight: bold;
@@ -235,7 +235,7 @@ div.par3 div.alt3{
     display: flex;
 }
 div.par3 div.alt3 img{
-    margin: 7vw 0 0 0;
+    margin: 5vw 0 0 0;
 }
 section div.par3 p span{
     font-weight: bold;
