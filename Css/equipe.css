@@ -168,6 +168,8 @@ section.topo {
 section.topo h1{
     font-size: 2rem;
     padding: 2vw 0 5vw 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 } 
 section.topo ul li{
     font-size: 1.3rem;
@@ -183,6 +185,8 @@ section.referencia{
 }
 section.referencia h2{
     font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 
