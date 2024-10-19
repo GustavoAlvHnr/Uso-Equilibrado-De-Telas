@@ -161,3 +161,21 @@ div.banner{
 section main {
     text-align: center;
 }
+/*///////////////////////////
+            Footer
+///////////////////////////*/
+footer{
+    padding: 2vw 0 3vw 0;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-top: 10vw solid #ffffff;
+}
+footer ul.icon{
+    display: flex;
+    justify-content: center;
+}
+footer ul.icon li{
+    padding: 10px 10px 0 10px;
+}
