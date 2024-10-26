@@ -192,6 +192,28 @@ section.s5 div.p1 p{
     margin-left: 20px;
     margin-bottom: 10px;
 }
+main h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0;
+    
+}
+main section.s0 div.por{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+}
+
+main section.s0 ul li{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+    
+main section.s0 div.por img{
+    font-size: 50px;
+    
+}
 
 /*///////////////////////////
             Footer

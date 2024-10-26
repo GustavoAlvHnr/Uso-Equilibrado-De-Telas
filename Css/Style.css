@@ -161,6 +161,7 @@ div.banner{
     height: 40vw;
    background-size: 100vw;
    border-bottom: solid black 6vw;
+
 }
 /*///////////////////////////
             Topo
@@ -170,25 +171,34 @@ main h1.grande1{
     padding: 20px 0;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    border-bottom: none;
 }
 main h1{
     text-align: center;
     font-size: 35px;
     padding-top: 20px;
+    border-bottom: 5px solid rgb(40, 40, 40);
+    padding: 20px;
+    padding: 30px 50px;
+    
 }
 main P{
     text-align: center;
-    padding-bottom: 20px;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    
 }
 main div{
     text-align: center;
     padding: 20px 0;
+    
     
 }
 main section{
     border: black solid;
     margin: 50px;
     background-color: black;
+    padding: 5px;
     color: rgb(158, 147, 147);
     border-radius: 10px;
     
@@ -213,11 +223,15 @@ main a{
     
     
     
+    
+    
 }
 body{
     background-color: rgb(255, 255, 255);
     
 }
+
+     
 /*///////////////////////////
             Footer
 ///////////////////////////*/
