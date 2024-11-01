@@ -177,8 +177,9 @@ main h1{
     text-align: center;
     font-size: 35px;
     padding-top: 20px;
-    border-bottom: 5px solid rgb(40, 40, 40);
-    padding: 20px;
+    border-bottom: 5px solid black;
+    margin: 0 120px;
+    padding: 20px ;
     padding: 30px 50px;
     
 }
@@ -195,11 +196,11 @@ main div{
     
 }
 main section{
-    border: black solid;
+    border: white solid;
     margin: 50px;
-    background-color: black;
+    background-image: linear-gradient(to bottom, #79dadb, #74db97);
     padding: 5px;
-    color: rgb(158, 147, 147);
+    color: black;
     border-radius: 10px;
     
     
@@ -215,8 +216,9 @@ main{
 }
 main a{
     text-decoration: none;
-    color: rgb(158, 147, 147);
-    background-color: rgb(43, 43, 44);
+    color: rgba(0, 0, 0, 20);
+    background-color: #74dbdd;
+    border:0.5px solid black;
     padding: 5px;
     border-radius: 20px;
     
