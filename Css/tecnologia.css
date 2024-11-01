@@ -189,10 +189,12 @@ section.s5 div.imgtext{
     margin-left: 300px;
     margin-bottom: 20px;
     margin-top: 20px;
+
 }
 section.s5 div.p1 p{
     margin-left: 20px;
     margin-bottom: 10px;
+    text-align: left,;
 }
 main h4{
     text-align: center;
