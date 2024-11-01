@@ -64,13 +64,13 @@ html{
 ///////////////////////////*/
 
 header nav ul li.cor{
-    color:blue;
+    color:black;
 }
 #cor{
-    color: blue;
+    color: black;
 }
 header{
-    background-color: black;
+    background-image: linear-gradient(to right, #74dbba, #74b9db);
     display: flex;
     justify-content: space-between;
 }
@@ -84,6 +84,9 @@ header nav ul{
 }
 header nav ul li{
     padding: 0px 10px 10px 10px;
+}
+header a img{
+    padding: 0 40px 0 40px
 }
 
 
@@ -129,10 +132,10 @@ a {
 ///////////////////////////*/
 
 header nav ul li.cor{
-    color:blue;
+    color:black;
 }
 #cor{
-    color: blue;
+    color: black;
 }
 header{
     background-color: black;
@@ -208,10 +211,10 @@ section.referencia ul li{
 footer{
     padding: 2vw 0 3vw 0;
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(to left, #74dadb, #74db97);
     color: #ffffff;
     border-color: #ffffff;
-    border-top: 10vw solid #ffffff;
+    border-image: linear-gradient(to left, #74dadb, #74db97);
 }
 footer ul.icon{
     display: flex;

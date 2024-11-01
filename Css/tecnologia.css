@@ -65,19 +65,19 @@ html{
 ///////////////////////////*/
 
 header nav ul li.cor{
-    color:blue;
+    color:black;
 }
 #cor{
-    color: blue;
+    color: black;
 }
 header{
-    background-color: black;
+    background-image: linear-gradient(to right, #74dbba, #74b9db);
     display: flex;
     justify-content: space-between;
 }
 header nav{
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 header nav ul{
     display: flex;
@@ -130,19 +130,19 @@ a {
 ///////////////////////////*/
 
 header nav ul li.cor{
-    color:blue;
+    color:black    ;
 }
 #cor{
-    color: blue;
+    color:black   ;
 }
 header{
-    background-color: black;
+    background-image: linear-gradient(to left, #74dbba, #74b9db);
     display: flex;
     justify-content: space-between;
 }
 header nav{
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 header nav ul{
     display: flex;
@@ -151,7 +151,9 @@ header nav ul{
 header nav ul li{
     padding: 0px 10px 10px 10px;
 }
-
+header a img{
+    padding: 0 40px 0 40px
+}
 
 div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("");
@@ -168,7 +170,7 @@ main {
 section.s5 h1 {
     text-align: center;
     font-size: 3rem;
-    margin: 20px;
+    margin: 25px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -184,7 +186,7 @@ section.s5 p.p9{
 section.s5 div.imgtext{
     display: flex;
     margin-left: 100px;
-    margin-right: 300px;
+    margin-left: 300px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -221,11 +223,11 @@ main section.s0 div.por img{
 footer{
     padding: 2vw 0 3vw 0;
     text-align: center;
-    background-color: black;
-    color: #ffffff;
+    background-image: linear-gradient(to left, #74dadb, #74db97);
+    color:  #ffffff;
     border-color: #ffffff;
-    border-top: 10vw solid #ffffff;
-    border-bottom: solid black 2.9vw;
+    border-top: 2.5vw solid #ffffff;
+    border-image: linear-gradient(to left, #74dadb, #74db97);
 }
 footer ul.icon{
     display: flex;
