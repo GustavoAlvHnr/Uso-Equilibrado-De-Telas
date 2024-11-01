@@ -164,7 +164,7 @@ div.banner{
             Topo
 ///////////////////////////*/
 section div.par1 {
-   text-align: center;
+   text-align: left;
    margin: 2vw 7vw 2vw 7vw;
 }
 section div.par1 h1{
@@ -172,6 +172,7 @@ section div.par1 h1{
    font-weight: bold;
    margin: 3vw 0 3vw 0;
    font-family: 'Times New Roman', Times, serif;
+   text-align: center;
 }
 section div.par1 p{
     margin: 3vw;
@@ -192,7 +193,7 @@ section div.par1 div.alt img{
             par2
 ///////////////////////////*/
 section div.par2{
-    text-align: center;
+    text-align: right;
     margin: 2vw 10vw 2vw 10vw;
 }
 section div.par2 h2{
@@ -200,6 +201,7 @@ section div.par2 h2{
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 div.par2 p{
     margin: 3vw;
@@ -219,7 +221,7 @@ section div.par2 p span{
             par
 ///////////////////////////*/
 section div.par3{
-    text-align: center;
+    text-align:left ;
     margin: 2vw 10vw 2vw 10vw;
 }
 section div.par3 h2{
@@ -227,6 +229,7 @@ section div.par3 h2{
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 div.par3 p{
     margin: 3vw;

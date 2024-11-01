@@ -164,7 +164,7 @@ div.banner{
             Topo
 ///////////////////////////*/
 section.topo {
-    text-align: center;
+    text-align: left;
     padding: 0 0 3vw 0;
 }
 section.topo h1{
@@ -209,7 +209,7 @@ section.referencia ul li{
 ///////////////////////////*/
 footer{
     padding: 2vw 0 3vw 0;
-    text-align: center;
+    text-align: left;
     background-image: linear-gradient(to left, #74dadb, #74db97);
     color: #ffffff;
     border-color: #ffffff;
