@@ -74,6 +74,7 @@ header{
     background-image: linear-gradient(to right, #74dbba, #74b9db);
     display: flex;
     justify-content: space-between;
+    border-radius: 0 10px 0 10px;
 }
 header nav{
     display: flex;
@@ -92,7 +93,6 @@ div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("");
     height: 40vw;
    background-size: 100vw;
-   border-bottom: solid black 6vw;
 }
 /*///////////////////////////
             Topo
