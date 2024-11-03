@@ -156,7 +156,11 @@ header nav ul li{
     padding: 0px 10px 10px 10px;
 }
 
-
+header nav ul li:hover{
+    background-color:#3e90b9;
+    border-radius: 20px;
+    border: solid black 2px;
+}
 div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://blog.eyecarehealth.com.br/wp-content/uploads/2021/12/O-uso-excessivo-de-tela-prejudica-a-saude-ocular-1.jpg");
     height: 40vw;
