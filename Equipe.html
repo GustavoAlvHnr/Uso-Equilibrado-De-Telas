@@ -6,11 +6,12 @@
     <title>Nossa Equipe</title>
     <link rel="stylesheet" href="Css/equipe.css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
+    <script src="node.js"></script>
 </head>
 <body>
     <header>
         <div class="burro">
-            <a href="index.html"><img src="SRC/Logo-removebg-preview.png"" alt="Logo UET" width="100"></a>
+            <a href="index.html"><img src="SRC/Logo-removebg-preview.png" alt="Logo UET"></a>
         </div>  
          <div class="aba">
              <nav>
@@ -30,7 +31,36 @@
     <h1>
         Nossa Equipe
     </h1>
+
+    <div class="container">
+        <div class="image fade">
+            <img src="SRC/fototecnologia.png" alt="imagem dos integrantes">
+            <p id="nome1">Gianluca</p>
+        </div>
+        <div class="image fade">
+            <img src="SRC/Logo-removebg-preview.png" alt="imagem dos integrantes">
+        </div>
+        <div class="image fade">
+            <img src="SRC/medium_shot_woman_holding_smartphone-38836451.jpg" alt="imagem dos integrantes">
+        </div>
+        <div class="image fade">
+            <img src="SRC/perigo-telas-sono-infantil.png" alt="imagem dos integrantes">
+        </div>
+        <div class="image fade">
+            <img src="SRC/saude-mental-1024x576.jpg" alt="imagem dos integrantes">
+        </div>
        
+        <a id="prev" onclick="show_slide(-1)">Anterior</a>
+        <a id="next" onclick="show_slide(1)">Próximo</a>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script src="node.js"></script>
         <ul>
             <li>
                 Davi dos Passos
