@@ -200,7 +200,7 @@ main P{
     padding: 30px 0;
     margin-bottom: 30px;
     margin: 0 20% 0 20%;
-
+   
     
 }
 main div{
@@ -235,19 +235,32 @@ main a{
     border:0.5px solid black;
     padding: 5px;
     border-radius: 20px;
-
-    
+  
     
     
     
     
 }
+   
+    
 body{
     background-color: rgb(255, 255, 255);
     
 }
 
-     
+main a{position:relative;
+    padding:4px;}
+main a:hover{top:-6px;
+    box-shadow:0 4px 4px #666}
+
+header nav ul li{
+    position: relative;
+    
+}
+header nav ul li:hover{
+    top: -8px;
+    box-shadow: 0 2px 2px #666;
+}
 /*///////////////////////////
             Footer
 ///////////////////////////*/

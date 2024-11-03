@@ -132,6 +132,14 @@ a {
 /*///////////////////////////
             Header
 ///////////////////////////*/
+header nav ul li{
+    position: relative;
+    
+}
+header nav ul li:hover{
+    top: -8px;
+    box-shadow: 0 2px 2px #666;
+}
 
 header nav ul li.cor{
     color:black;
