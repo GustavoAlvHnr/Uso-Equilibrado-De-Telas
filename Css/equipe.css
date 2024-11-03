@@ -140,6 +140,7 @@ header nav ul li{
 header nav ul li:hover{
     top: -8px;
     box-shadow: 0 2px 2px #666;
+    border: none;
 }
 
 header nav ul li.cor{
@@ -167,7 +168,7 @@ header nav ul li{
 header nav ul li:hover{
     background-color:#3e90b9;
     border-radius: 20px;
-    border: solid black 2px;
+    
 }
 
 div.banner{

@@ -251,7 +251,10 @@ body{
 main a{position:relative;
     padding:4px;}
 main a:hover{top:-6px;
-    box-shadow:0 4px 4px #666}
+    box-shadow:0 4px 4px #666;
+    border: 3px solid black;
+    
+}
 
 header nav ul li{
     position: relative;
@@ -260,6 +263,8 @@ header nav ul li{
 header nav ul li:hover{
     top: -8px;
     box-shadow: 0 2px 2px #666;
+    border: none;
+
 }
 /*///////////////////////////
             Footer
