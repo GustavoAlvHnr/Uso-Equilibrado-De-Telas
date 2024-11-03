@@ -62,6 +62,9 @@ html{
 /*///////////////////////////
             Header
 ///////////////////////////*/
+header div.burro{
+    margin-top: 10px;
+}
 
 header nav ul li.cor{
     color:black;
@@ -191,7 +194,7 @@ section.Historia p{
 ///////////////////////////*/
 footer{
     padding: 2vw 0 3vw 0;
-    text-align: left;
+    text-align: center;
     background-image: linear-gradient(to left, #74dadb, #74db97);
     color: #ffffff;
     border-color: #ffffff;

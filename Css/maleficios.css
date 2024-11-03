@@ -62,7 +62,9 @@ html{
 /*///////////////////////////
             Header
 ///////////////////////////*/
-
+header div.burro{
+    margin-top: 10px;
+}
 header nav ul li.cor{
     color:black;
 }
@@ -166,6 +168,7 @@ div.banner{
 section div.par1 {
    text-align: left;
    margin: 2vw 7vw 2vw 7vw;
+   padding-top: 3vw;
 }
 section div.par1 h1{
    font-size: 3rem;
@@ -193,8 +196,9 @@ section div.par1 div.alt img{
             par2
 ///////////////////////////*/
 section div.par2{
-    text-align: right;
+    text-align: left;
     margin: 2vw 10vw 2vw 10vw;
+    
 }
 section div.par2 h2{
     font-size: 2rem;
