@@ -184,10 +184,11 @@ section.topo {
     padding: 0 0 3vw 0;
 }
 section.topo h1{
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 2vw 0 5vw 0;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    text-align: center;
 } 
 section.topo ul li{
     font-size: 1.3rem;
@@ -205,6 +206,7 @@ section.referencia h2{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+
 }
 section.referencia ul{
     text-align: center;
@@ -354,9 +356,10 @@ footer ul.icon li{
         width: 100%;
     }
 }
-#nome1{
+p.nome1{
     text-align: center;
-    background-color: #717171;
+    background-color: #9c9a9a;
+    border: #666 2px solid;
     padding: 10px;
 }
 img{

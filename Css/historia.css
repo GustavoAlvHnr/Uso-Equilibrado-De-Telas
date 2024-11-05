@@ -184,7 +184,7 @@ section main {
 }
 
 section.topo h1{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     padding: 3vw 0 5vw 0;
     font-family: 'Times New Roman', Times, serif;
@@ -200,6 +200,7 @@ section.Historia p{
     font-size: 1.3rem;
     line-height: 2vw;
     text-wrap: pretty;
+    margin-bottom: 10vw;
 }
 
 /*///////////////////////////
