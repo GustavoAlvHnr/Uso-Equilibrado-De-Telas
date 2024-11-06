@@ -255,6 +255,7 @@ footer ul.icon li{
   flex-direction: column;
   height: 100vh;
   position: relative;    
+  
 }
 
 .image{
@@ -361,7 +362,14 @@ p.nome1{
     background-color: #9c9a9a;
     border: #666 2px solid;
     padding: 10px;
+    width: 40.75vw;
 }
 img{
     width: 100%;
+  
+    
+}
+img.tamanho{
+ height: 30vw;
+ border: 5px solid black;
 }
