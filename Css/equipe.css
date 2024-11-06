@@ -201,6 +201,7 @@ section.topo ul li{
 section.referencia{
     text-align: center;
     padding: 2vw 0 0 0;
+    margin-bottom: 4vw;
 }
 section.referencia h2{
     font-size: 2rem;
@@ -220,6 +221,9 @@ section.referencia ul li a{
 section.referencia ul li{
     padding: 10px;
 }
+section.referencia ul li span{
+    font-weight: bold;
+}
 
 
 /*///////////////////////////
@@ -232,6 +236,7 @@ footer{
     color: #ffffff;
     border-color: #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
+    
 }
 footer ul.icon{
     display: flex;
@@ -255,6 +260,7 @@ footer ul.icon li{
   flex-direction: column;
   height: 100vh;
   position: relative;    
+
   
 }
 
@@ -360,9 +366,9 @@ footer ul.icon li{
 p.nome1{
     text-align: center;
     background-color: #9c9a9a;
-    
+    padding: 15px;
+    font-size: 1.5vw;
 
-    padding: 10px;
     
 }
 img{

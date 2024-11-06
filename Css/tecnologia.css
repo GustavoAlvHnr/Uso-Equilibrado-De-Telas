@@ -195,7 +195,7 @@ section.s5 h1 {
 section.s5 {
     text-align: center;
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 7vw;
     line-height: 2rem;
 }
 section.s5 p.p9{
@@ -217,6 +217,7 @@ section.s5 div.p1 p{
     margin-bottom: 10px;
     text-align: left;
     gap: 20px;
+    
 }
 main h4{
     text-align: center;
@@ -229,6 +230,7 @@ main section.s0 div.por{
     display: flex;
     gap: 10vw;
     align-items: center;
+    margin-bottom: 5vw;
 }
 
 main section.s0 ul li{

@@ -213,6 +213,7 @@ footer{
     color: #ffffff;
     border-color: #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
+    padding-bottom: 9%;
 }
 footer ul.icon{
     display: flex;
