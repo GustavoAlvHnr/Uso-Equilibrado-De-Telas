@@ -360,9 +360,10 @@ footer ul.icon li{
 p.nome1{
     text-align: center;
     background-color: #9c9a9a;
-    border: #666 2px solid;
+    
+
     padding: 10px;
-    width: 40.75vw;
+    
 }
 img{
     width: 100%;
@@ -371,5 +372,4 @@ img{
 }
 img.tamanho{
  height: 30vw;
- border: 5px solid black;
 }
