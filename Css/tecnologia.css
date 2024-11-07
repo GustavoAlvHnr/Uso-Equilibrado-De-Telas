@@ -152,7 +152,7 @@ header nav ul li.cor{
     color:black   ;
 }
 header{
-    background-image: linear-gradient(to left, #74dadb,  #74dbba);
+    background-image: linear-gradient(to right, #74dbba, #74b9db);
 
     display: flex;
     justify-content: space-between;

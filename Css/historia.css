@@ -155,6 +155,7 @@ header nav ul li.cor{
 }
 header{
     background-image: linear-gradient(to right, #74dbba, #74b9db);
+
     display: flex;
     justify-content: space-between;
 }
@@ -218,7 +219,4 @@ footer{
 footer ul.icon{
     display: flex;
     justify-content: center;
-}
-footer ul.icon li{
-    
 }
