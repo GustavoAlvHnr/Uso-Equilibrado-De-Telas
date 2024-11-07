@@ -201,14 +201,14 @@ section.Historia p{
     font-size: 1.3rem;
     line-height: 2vw;
     text-wrap: pretty;
-    margin-bottom: 10vw;
+    margin-bottom: 11vw;
 }
 
 /*///////////////////////////
             Footer
 ///////////////////////////*/
 footer{
-    padding: 3vw 0 3vw 0;
+    padding: 5vw 0 5vw 0;
     text-align: center;
     background-image: linear-gradient(to left, #74dadb, #74db97);
     color: #ffffff;
