@@ -85,7 +85,7 @@ header{
     background-image: linear-gradient(to right, #74dbba, #74b9db);
     display: flex;
     justify-content: space-between;
-    position: fixed;
+
     width: 100%;
     
     
@@ -220,10 +220,10 @@ footer{
     color: #ffffff;
     border-color: #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
-    position: fixed;
     width: 100%;
-    height: 100%;
-    padding-top: 5vw;
+    padding: 3vw 0;
+    
+    
     
     
     
@@ -231,5 +231,9 @@ footer{
 footer ul.icon{
     display: flex;
     justify-content: center;
+    padding: 10px 10px 0 10px;
+    
+    
+
 
 }
