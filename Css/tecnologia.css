@@ -83,7 +83,7 @@ header nav ul li.cor{
     color: black;
 }
 header{
-    background-image: linear-gradient(to right, #74dbba, #74b9db);
+
     display: flex;
     justify-content: space-between;
     
@@ -106,7 +106,7 @@ header nav ul li:hover{
     
 }
 div.banner{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("");
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
     height: 40vw;
    background-size: 100vw;
 }
@@ -152,7 +152,8 @@ header nav ul li.cor{
     color:black   ;
 }
 header{
-    background-image: linear-gradient(to left, #74dbba, #74b9db);
+    background-image: linear-gradient(to left, #74dadb,  #74dbba);
+
     display: flex;
     justify-content: space-between;
 }
@@ -172,10 +173,10 @@ header a img{
 }
 
 div.banner{
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("");
+    
     height: 40vw;
    background-size: 100vw;
-   border-bottom: solid black 6vw;
+   border-bottom: solid black 6vw
 }
 /*///////////////////////////
             Topo
@@ -190,6 +191,8 @@ section.s5 h1 {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin: 5vw;
+
+
     
 }
 section.s5 {
@@ -197,19 +200,35 @@ section.s5 {
     font-size: 1.2rem;
     margin-bottom: 7vw;
     line-height: 2rem;
+    
+
+    
 }
+
 section.s5 p.p9{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 4vw;
+    border-top: 3px solid black;
+    padding-top: 5vw;
+    
+
+    
+    
+    
 }
 section.s5 div.imgtext{
     display: flex;
-    margin-left: 100px;
-    margin-left: 300px;
+   
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 1.5rem;
     text-wrap: pretty;
+    background-color: #74b9db;
+    padding: 5vw;
+    border-radius: 2vw;
+    border: 2px solid black;
+    
+
 
 }
 section.s5 div.p1 p{
@@ -217,13 +236,19 @@ section.s5 div.p1 p{
     margin-bottom: 10px;
     text-align: left;
     gap: 20px;
+    justify-content: center;
+
+
     
 }
+
 main h4{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     padding: 30px 0;
+    border: 3px solid black;
+    margin: 3vw 0;
     
 }
 main section.s0 div.por{
@@ -231,11 +256,20 @@ main section.s0 div.por{
     gap: 10vw;
     align-items: center;
     margin-bottom: 5vw;
+   
+    border: 3px dotted black;
+    border-left: 5px solid black;
+    background-image: linear-gradient(to right, #74dbba, #74b9db);
+    border-radius: 2vw;
+    padding: 2vw;
+    
+    
 }
 
 main section.s0 ul li{
     padding-bottom: 20px;
     font-size: 25px;
+    padding: 2vw 0;
 
 }
     
@@ -257,6 +291,7 @@ footer{
     border-color: #ffffff;
     border-top: 2.5vw solid #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
+    
 }
 footer ul.icon{
     display: flex;
