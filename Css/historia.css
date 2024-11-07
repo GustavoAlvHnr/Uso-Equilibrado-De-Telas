@@ -212,7 +212,7 @@ footer{
     align-items: center;
     text-align: center;
     background-image: linear-gradient(to left, #74dadb, #74db97);
-    color: yellow;
+    color: #ffffff;
     border-color: #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
     position: fixed;
