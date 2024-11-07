@@ -212,13 +212,14 @@ footer{
     align-items: center;
     text-align: center;
     background-image: linear-gradient(to left, #74dadb, #74db97);
-    color: #ffffff;
+    color: yellow;
     border-color: #ffffff;
     border-image: linear-gradient(to left, #74dadb, #74db97);
     position: fixed;
     width: 100%;
     height: 100%;
     padding-top: 5vw;
+    
     
     
 }
