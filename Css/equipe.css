@@ -59,20 +59,21 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 /*///////////////////////////
             Header
 ///////////////////////////*/
 header div.burro a img{
     padding: 1.5vw 0 1vw 2vw;
-    width: 10%;
 }
 header nav ul li.cor{
     color:black;
     border: 3px black solid;
     border-radius: 10px;
+    background-color: black;
 }
 header nav ul li a#cor{
-    color: black;
+    color: white;
     border: 5px black;
     border-radius: 10px;
 }
@@ -91,18 +92,21 @@ header nav ul{
     
 }
 header nav ul li{
-    padding: 0 0.5vw;
+    padding: 0.3vw;
     border: white solid 3px;
     border-radius: 10px;
+    background-color: white;
+    margin: 2px;
 }
 header nav ul li:hover{
     background-color:#3e90b9;
-    border: solid black 3px;
+    border: solid #3e90b9 3px;
     box-shadow: 0 2px 2px #666;
     border-radius: 10px;
 }
 header nav ul li a{
     padding: 0.3vw;
+    color: black;
 }
 
 div.banner{
