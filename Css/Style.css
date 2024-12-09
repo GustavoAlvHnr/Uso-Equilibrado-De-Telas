@@ -98,15 +98,18 @@ main{
 /*///////////////////////////
             Header
 ///////////////////////////*/
-header div.burro{
-    padding: 2vw 0 0 0;
+header div.burro a img{
+    padding: 1.5vw 0 1vw 2vw;
 }
 header nav ul li.cor{
     color:black;
-    
+    border: 5px black;
+    border-radius: 10px;
 }
 #cor{
     color: black;
+    border: 5px black;
+    border-radius: 10px;
 }
 header{
     background-image: linear-gradient(to right, #74dbba, #74b9db);
@@ -119,17 +122,18 @@ header nav{
 }
 header nav ul{
     display: flex;
-    padding: 45px 10px; 
+    padding: 4vw 2vw; 
     
 }
 header nav ul li{
-    padding: 0px 10px 10px 10px;
+    padding: 0 0.5vw;
     
 }
 header nav ul li:hover{
     background-color:#3e90b9;
     border-radius: 20px;
     border: solid black 2px;
+    box-shadow: 0 2px 2px #666;
 }
 
 div.banner{
@@ -213,16 +217,7 @@ main a:hover{top:-6px;
     
 }
 
-header nav ul li{
-    position: relative;
-    
-}
-header nav ul li:hover{
-    top: -8px;
-    box-shadow: 0 2px 2px #666;
-    border: none;
 
-}
 /*///////////////////////////
             Footer
 ///////////////////////////*/
