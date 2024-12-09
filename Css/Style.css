@@ -103,10 +103,10 @@ header div.burro a img{
 }
 header nav ul li.cor{
     color:black;
-    border: 5px black;
+    border: 3px black solid;
     border-radius: 10px;
 }
-#cor{
+header nav ul li a#cor{
     color: black;
     border: 5px black;
     border-radius: 10px;
@@ -127,13 +127,17 @@ header nav ul{
 }
 header nav ul li{
     padding: 0 0.5vw;
-    
+    border: white solid 3px;
+    border-radius: 10px;
 }
 header nav ul li:hover{
     background-color:#3e90b9;
-    border-radius: 20px;
-    border: solid black 2px;
+    border: solid black 3px;
     box-shadow: 0 2px 2px #666;
+    border-radius: 10px;
+}
+header nav ul li a{
+    padding: 0.3vw;
 }
 
 div.banner{

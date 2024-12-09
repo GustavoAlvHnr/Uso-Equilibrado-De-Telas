@@ -62,14 +62,18 @@ html{
 /*///////////////////////////
             Header
 ///////////////////////////*/
-header div.burro{
-    margin-top: 10px;
+header div.burro a img{
+    padding: 1.5vw 0 1vw 2vw;
 }
 header nav ul li.cor{
     color:black;
+    border: 3px black solid;
+    border-radius: 10px;
 }
-#cor{
+header nav ul li a#cor{
     color: black;
+    border: 5px black;
+    border-radius: 10px;
 }
 header{
     background-image: linear-gradient(to right, #74dbba, #74b9db);
@@ -82,22 +86,31 @@ header nav{
 }
 header nav ul{
     display: flex;
-    margin: 37px;
+    padding: 4vw 2vw; 
+    
 }
 header nav ul li{
-    padding: 0px 10px 10px 10px;
+    padding: 0 0.5vw;
+    border: white solid 3px;
+    border-radius: 10px;
 }
-header a img{
-    padding: 0 40px 0 40px
+header nav ul li:hover{
+    background-color:#3e90b9;
+    border: solid black 3px;
+    box-shadow: 0 2px 2px #666;
+    border-radius: 10px;
 }
-
+header nav ul li a{
+    padding: 0.3vw;
+}
 
 div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
     height: 40vw;
    background-size: 100vw;
-   border-bottom: solid black 6vw;
+   max-width: 100vw;
 }
+
 /*///////////////////////////
             Topo
 ///////////////////////////*/
