@@ -184,7 +184,6 @@ section div.par1 div.alt{
     display: flex;
 }
 section div.par1 div.alt img{
-    margin: 3vw 0 0 0;
     border: 3px solid black;
 }
 /*///////////////////////////
@@ -207,7 +206,7 @@ section div.par2{
     
 }
 section div.par2 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
     font-family: 'Times New Roman', Times, serif;
@@ -249,7 +248,7 @@ section div.par3{
 
 }
 section div.par3 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin:3vw  0 3vw 0 ;
     font-family: 'Times New Roman', Times, serif;
