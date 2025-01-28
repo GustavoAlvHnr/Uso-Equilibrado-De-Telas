@@ -200,11 +200,12 @@ main section.rotine div ul li h2 {
     
     
 }
-main section.rotine div ul li h2.baixo{
-    margin-top: 2vw;
-    }
 
-    
+
+.baixo{
+    margin-bottom: 2vw;
+}
+
 main section.rotine div ul li a img {
     border-radius: 1vw;
     margin: 0 1vw 1vw 1vw;
