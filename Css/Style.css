@@ -89,7 +89,6 @@ a {
 }
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(15px + 0.390625vw);
     background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
     width: 100%;
     height: 100%;
@@ -201,5 +200,4 @@ header nav ul{
 header nav ul li{
     padding: 1.7vw;
 }
-
 }
