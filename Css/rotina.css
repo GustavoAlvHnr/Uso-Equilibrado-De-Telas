@@ -170,7 +170,7 @@ main section.rotine div.text p {
     background-color: #C1D8E7;
     border-radius: 20px;
     height: 100px;
-    text-align: center;
+    justify-content: left;
     padding: 5vw 2vw 5vw 2vw;
     color: #0C151C;
     font-family:'Times New Roman', Times, serif ;
@@ -211,9 +211,9 @@ main section.rotine div ul li a img {
     margin: 0 1vw 1vw 1vw;
 }
 main section.rotine div ul li p {
-    text-align: center;
+    text-align: left;
     color: #0C151C;
-    padding: 0 2vw 1vw 2vw;
+    padding: 1vw 2vw 3vw 2vw;
 }
 /*////////////////////////////////////////////////////////////////////
                                 Footer
