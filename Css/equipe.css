@@ -152,7 +152,9 @@ section.referencia ul li{
 section.referencia ul li span{
     font-weight: bold;
 }
-
+section.referencia h2{
+    font-size: 2rem;
+}
 
 /*///////////////////////////
             Footer
@@ -175,3 +177,46 @@ footer ul.icon li{
     padding: 10px 10px 10px 10px;
     
 }
+
+
+/*/////////////////celular//////////////////////////////////////////////////*/
+@media (max-width: 600px){
+
+
+    section.referencia ul li a{
+        display: block;
+        word-wrap: break-word;
+        
+        
+    }
+    section.referencia ul{
+        
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+    }
+    section.Historia p{
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        line-height: 1.3rem;
+        
+        text-align: left;
+    }
+
+            header{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    header nav{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul li{
+        padding: 1.7vw;
+    }
+    }
