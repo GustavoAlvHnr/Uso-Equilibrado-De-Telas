@@ -121,11 +121,11 @@ section.topo ul li{
     font-size: 1.3rem;
     padding: 1vw 0 1vw 0;
 }
-section.historia h2{
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+
+h6{
+    font-size: 2.2rem;
 }
+
 section.Historia p{
     padding: 2vw;
     font-size: 1.3rem;
