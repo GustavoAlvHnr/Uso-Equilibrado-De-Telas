@@ -113,9 +113,9 @@ main{
             Header
 ///////////////////////////*/
 header{
-    margin: 2vw;
+    margin: 0 2vw;
     padding: 1.5vw;
-    border-radius: 4vw;
+    border-radius:  0 0 4vw 4vw;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -163,7 +163,7 @@ footer{
     background-color: black;
     color: #ffffff;
     border-color: #ffffff;
-    border-radius: 4vw;
+    border-radius: 4vw 4vw 0 0;
     margin: 2vw;
 }
 footer ul.icon{
