@@ -28,13 +28,10 @@
     </header>
     <main>
         <section>
-            <div class="banner">
-            </div>
+            <h2><span>+</span>Os malefícios do uso de telas na aquisição de linguagem e comunicação</h2>
             <div class="par1">
-                <h1>Os malefícios do uso de telas na aquisição de linguagem e comunicação</h1>
                 <div class="alt">
                     <p>
-
                         <br>Para a amostra final foram incluídos 11 artigos esses artigos 60% disseram que uso de tela
                         quando não regulado provoca diversos impactos na saúde das crianças e em todo o seu
                         desenvolvimento, os 20% relatam que crianças que ficam por muitas horas em telas, tem prejuízos
@@ -45,14 +42,15 @@
                     <img src="SRC/desenvolvimento-infantil.webp" alt="" height="400">
                 </div>
             </div>
+            </section>
+            <section>
+                <h2><span>+</span>Como o uso excessivo de telas pode afetar o sono?</h2>
             <div class="par2">
-                <h2>Como o uso excessivo de telas pode afetar o sono?</h2>
                 <div class="alt2">
                     <img src="SRC/perigo-telas-sono-infantil.png"
                         alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fluckspuma.com.br%2Fblog%2Fperigo-telas-sono-infantil%2F&psig=AOvVaw2sMHLkdutm4XNFRXFMYi7y&ust=1727616389928000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICZ3u_644gDFQAAAAAdAAAAABAJ"
                         height="350" width="500">
                     <p>
-
                         Os estudos analisados mostraram que o vício com a internet está associado a distúrbios do sono e
                         transtornos mentais, por exemplo, ansiedade, depressão e TDAH, além de afetar o rendimento
                         escolar e as relações familiares. O uso moderado da internet pode até prevenir sintomas de
@@ -61,8 +59,10 @@
                     </p>
                 </div>
             </div>
+            </section>
+            <section>
+                <h2><span>+</span>Problemas de saúde mental causados pela tecnología:</h2>
             <div class="par3">
-                <h2>Problemas de saúde mental causados pela tecnología:</h2>
                 <div class="alt3">
                     <p>
                        
@@ -79,7 +79,6 @@
                         height="350" width="500">
                 </div>
             </div>
-
         </section>
     </main>
     <footer>
@@ -105,7 +104,27 @@
             <a href="https://www.instagram.com/usoequilbradodetelas/"> <span class="fa-brands fa-instagram"></span></a>
         </p>
     </footer>
+    <style>
+        section div{
+            display: none;
+        }
+    </style>
+    <script>
+        let elements = document.querySelectorAll(`h2`)
 
+        elements.forEach((item) => {
+            item.addEventListener(`click`, function(e){
+                let estado = this.parentNode.querySelector("div").style.display;
+                if(estado == "block"){
+                    this.parentNode.querySelector("div").style.display = "none";
+                    this.querySelector("span").innerHTML = "+";
+                }
+                else{
+                    this.parentNode.querySelector("div").style.display = "block";
+                    this.querySelector("span").innerHTML = "-";
+                }
+            })
+        })
+    </script>
 </body>
-
 </html>

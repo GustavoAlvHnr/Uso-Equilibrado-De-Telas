@@ -30,24 +30,25 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
+    section main {
+        text-align: center;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after, Referencias 
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
 /*///////////////////////////////////////////////////////////////////////
                                     GERAL
 ///////////////////////////////////////////////////////////////////////*/
@@ -118,30 +119,6 @@ div.banner{
 }
 
 /*///////////////////////////////////////////////////////////////////////
-                                    TOPO
-///////////////////////////////////////////////////////////////////////*/
-section main {
-    text-align: center;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after, Referencias 
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-section main {
-    text-align: center;
-}
-/*///////////////////////////////////////////////////////////////////////
                                     CONTEUDO
 ///////////////////////////////////////////////////////////////////////*/
 main section.rotine div.alt {
@@ -192,12 +169,9 @@ main section.rotine div ul li h2 {
     font-family:'Times New Roman', Times, serif ;
     justify-content: center;
     
-    
 }
-
 main section.rotine div ul li a img {
     border-radius: 1vw;
-
 }
 main section.rotine div ul li p {
     text-align: left;

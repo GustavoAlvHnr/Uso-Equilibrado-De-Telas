@@ -77,6 +77,13 @@ main{
     background-color: black;
     color: white;
 }
+section h2{
+    border: solid black;
+    margin: 3vw 10vw 3vw 10vw;
+    padding: 1vw;
+    border-radius: 4vw;
+    background-color: white;
+}
 /*///////////////////////////
             Header
 ///////////////////////////*/
@@ -107,7 +114,7 @@ div.banner{
  
     border: 3px solid black;
     border-radius: 1vw;
-    margin: 2vw 0 0 0;
+    margin: 2vw 0 2vw 0;
  }
 
 /*///////////////////////////
@@ -126,7 +133,7 @@ section div.par1 {
    border-left: 4px solid black;
    
 }
-section div.par1 h1{
+section div.par1 h2{
    font-size: 3rem;
    font-weight: bold;
    margin: 3vw 0 3vw 0;
@@ -161,11 +168,6 @@ section div.par2{
     border-bottom: 12px solid black;
     border-right: 7px solid black;
     border-left: 4px solid black;
-    
-
-
-
-    
 }
 section div.par2 h2{
     font-size: 3rem;
@@ -183,9 +185,7 @@ div.par2 div.alt2{
     display: flex;
 }
 div.par2 div.alt2 img{
-
     border: 3px solid black;
-
 }
 section div.par2 p span{
     font-weight: bold;
@@ -204,10 +204,6 @@ section div.par3{
     border-right: 7px solid black;
     border-left: 4px solid black;
     margin-bottom: 5vw;
-    
-
-    
-
 }
 section div.par3 h2{
     font-size: 3rem;
@@ -248,9 +244,7 @@ footer{
 footer ul.icon{
     display: flex;
     justify-content: center;
-
 }
 footer ul.icon li{
     padding: 10px 10px 10px 10px;
-    
 }
