@@ -93,11 +93,47 @@ header div.burro a img{
     background-color: white;
     border-radius: 10vw;
 }
-header nav ul{
-    display: flex;
+/*Barra lateral*/
+.sidebar{
+    position: fixed;
+    right: -270px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    padding-top: 60px;
+    transition: 0.3s;
+    box-shadow: 4px 10px rgba(0, 0, 0, 0,2);
+    border: black solid;
+    border-radius: 1vw 0 0 1vw;
 }
-header nav ul li{
-    padding: 3vw 2vw 3vw 2vw;
+.sidebar a{
+    display: block;
+    margin: 1vw 1vw 1vw 0.5vw;
+    padding: 2vw;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.sidebar a:hover{
+    background-color: #74dbba;
+    color: black;
+    border: none;
+}
+/*Botão da barra lateral*/
+.menu-btn {
+    margin: 3vw;
+    background-color:white;
+    color: black;
+    padding: 1vw 2vw;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.menu-btn:hover{
+    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
 }
 /*///////////////////////////
             Topo

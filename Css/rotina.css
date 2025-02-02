@@ -72,26 +72,6 @@ ul li a {
     text-decoration: none;
     color:white;
 }
-
-header{
-    margin: 0 2vw;
-    padding: 1.5vw;
-    border-radius: 0 0 4vw 4vw;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-header div.burro a img{
-    background-color: white;
-    border-radius: 10vw;
-}
-header nav ul{
-    display: flex;
-}
-header nav ul li{
-    padding: 3vw 2vw 3vw 2vw;
-}
-
 .botao{
     background-color: white;
     border-radius: 3vw;
@@ -107,6 +87,61 @@ header nav ul li{
 /*///////////////////////////
             Header
 ///////////////////////////*/
+header{
+    margin: 0 2vw;
+    padding: 1.5vw;
+    border-radius:  0 0 4vw 4vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+header div.burro a img{
+    background-color: white;
+    border-radius: 10vw;
+}
+/*Barra lateral*/
+.sidebar{
+    position: fixed;
+    right: -270px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    padding-top: 60px;
+    transition: 0.3s;
+    box-shadow: 4px 10px rgba(0, 0, 0, 0,2);
+    border: black solid;
+    border-radius: 1vw 0 0 1vw;
+}
+.sidebar a{
+    display: block;
+    margin: 1vw 1vw 1vw 0.5vw;
+    padding: 2vw;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.sidebar a:hover{
+    background-color: #74dbba;
+    color: black;
+    border: none;
+}
+/*Botão da barra lateral*/
+.menu-btn {
+    margin: 3vw;
+    background-color:white;
+    color: black;
+    padding: 1vw 2vw;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.menu-btn:hover{
+    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+}
+
 
 div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
@@ -140,7 +175,7 @@ main section.rotine div.text p {
     margin-bottom: 2vw;
     background-color: black;
     border-radius: 20px;
-    height: 100px;
+    height: 4vw;
     justify-content: left;
     padding: 5vw 2vw 5vw 2vw;
     color: white;
@@ -163,7 +198,6 @@ main section.rotine div ul li {
 main section.rotine div ul li h2 {
     font-weight: bold;
     font-size: 2rem;
-    display: flex;
     padding: 1vw 1vw;
     color: white;
     font-family:'Times New Roman', Times, serif ;
@@ -198,4 +232,34 @@ footer ul.icon{
 footer ul.icon li{
     padding: 10px 10px 10px 10px;
     
+}
+
+/* //////////////////////////// 
+        Responsividade
+/////////////////////////////*/
+@media (max-width: 600px){
+
+    /* ///////////////////// 
+            Header
+    /////////////////////*/
+    header{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    header nav{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul li{
+        padding: 1.7vw;
+    }
+
+    /*////////////////////////
+            conteudo
+    ////////////////////////*/
 }

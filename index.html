@@ -7,6 +7,7 @@
     <title>Uso equilibrado De telas</title>
     <link rel="stylesheet" href="Css/Style.css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
+    <script src="JS/Script.js"></script>
 </head>
 
 <body>
@@ -14,16 +15,19 @@
         <div class="burro">
             <a href="index.html"><img src="SRC/Logo-removebg-preview.png" alt="Logo UET" width="100"></a>
         </div>
-        <div class="aba">
+        <div class="suspenso">
+            <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+            <div class="sidebar" id="sidebar">
             <nav>
                 <ul>
-                    <li><span class="cor"><a class="botao" href="index.html">Pagina inicial</a></span></li>
+                    <li><a class="botao" href="index.html">Pagina inicial</a></li>
                     <li><a class="botao" href="Equipe.html">Equipe</a></li>
                     <li><a class="botao" href="rotina.html">Rotina</a></li>
                     <li><a class="botao" href="maleficios.html">Maleficios</a></li>
                     <li><a class="botao" href="tecnologia.html">Tecnologia</a></li>
                 </ul>
             </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -77,7 +81,6 @@
                 <a class="botao" href="Equipe.html">Ler mais</a>
             </div>
         </section>
-
     </main>
     <footer>
         <ul>
