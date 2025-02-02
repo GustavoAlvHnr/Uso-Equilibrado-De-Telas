@@ -309,7 +309,53 @@ header nav ul{
 header nav ul li{
     padding: 1.7vw;
 }
+  section{
+    margin: 20vw 0 20vw 0;
+  }
+   div.par2 div.alt2 img{
+    width: 100%;
+    flex-wrap: wrap;
+    display: block;
+    float: none;
+   }
 
+   div.par2 div.alt2{
+    display: block;
+    width: 100%;
+   }
+
+   div.par1 div.alt{
+    display: block;
+    width: 100%;
+    
+   }
+   div.par1 div.alt{
+    
+    flex-wrap: wrap;
+    display: block;
+    float: none;
+   }
+   section div.par1 div.alt img{
+    width: 100%;
+    
+   }
+   div.par3 div.alt3{
+    display: block;
+    width: 100%;
+   }
+   section div.par3 div.alt3 img{
+    width: 100%;
+    border: 3px solid black;
+   }
+ 
+   footer{
+    
+   margin-top: 40%;
+ 
+}
+footer ul li{
+    padding: 2vw;
+}
 /*//////////////////////
         Conteudo
 /////////////////////*/

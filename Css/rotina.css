@@ -175,7 +175,7 @@ main section.rotine div.text p {
     margin-bottom: 2vw;
     background-color: black;
     border-radius: 20px;
-    height: 4vw;
+  
     justify-content: left;
     padding: 5vw 2vw 5vw 2vw;
     color: white;
@@ -197,11 +197,11 @@ main section.rotine div ul li {
 }
 main section.rotine div ul li h2 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 1vw 1vw;
     color: white;
     font-family:'Times New Roman', Times, serif ;
-    justify-content: center;
+    
     
 }
 main section.rotine div ul li a img {
@@ -227,11 +227,16 @@ footer{
 footer ul.icon{
     display: flex;
     justify-content: center;
+    
 
 }
 footer ul.icon li{
     padding: 10px 10px 10px 10px;
     
+    
+}
+footer p a{
+    color: white;
 }
 
 /* //////////////////////////// 
@@ -258,7 +263,34 @@ footer ul.icon li{
     header nav ul li{
         padding: 1.7vw;
     }
-
+    main img{
+        width: 100%;
+    }
+    iframe{
+      width: 100%
+      
+    
+    }
+    body{
+        width: 100%;
+        
+        
+    }
+    ul li.video{
+        padding: 0 5vw 0 5vw;
+    }
+   
+    main p{
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        line-height: 1.3rem;
+        
+        text-align: left;
+    }
+   
+    main section.rotine div ul li h2{
+        font-size: 1.5rem;
+    }
     /*////////////////////////
             conteudo
     ////////////////////////*/
