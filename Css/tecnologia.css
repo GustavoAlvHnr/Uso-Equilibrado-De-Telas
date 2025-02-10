@@ -148,6 +148,11 @@ section.s5 h1 {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin: 5vw;
+    border: 2px solid black;
+    padding: 5vw;
+    background-color: black;
+    border-radius: 3vw;
+    color: white;
 
 
     
@@ -166,7 +171,12 @@ section.s5 p.p9{
     font-size: 1.6rem;
     margin-bottom: 4vw;
     border-top: 3px solid black;
-    padding-top: 5vw;
+    padding-top: 3vw;
+    color: white;
+    background-color: black;
+    border-radius: 4vw;
+    
+
     
 
     
@@ -180,7 +190,8 @@ section.s5 div.imgtext{
     margin-top: 20px;
     font-size: 1.5rem;
     text-wrap: pretty;
-    background-color: #74b9db;
+    background-color: black;
+    color: white;
     padding: 5vw;
     border-radius: 2vw;
     border: 2px solid black;
@@ -206,6 +217,8 @@ main h4{
     padding: 30px 0;
     border: 3px solid black;
     margin: 3vw 0;
+    background-color: black;
+    color: white;
     
 }
 main section.s0 div.por{
@@ -214,9 +227,10 @@ main section.s0 div.por{
     align-items: center;
     margin-bottom: 5vw;
    
-    border: 3px dotted black;
-    border-left: 5px solid black;
-    background-image: linear-gradient(to right, #74dbba, #74b9db);
+    border: 3px dotted white;
+    border-left: 5px solid white;
+    background-color: black;
+    color: white;
     border-radius: 2vw;
     padding: 2vw;
     
@@ -230,10 +244,7 @@ main section.s0 ul li{
 
 }
     
-main section.s0 div.por img{
-    font-size: 50px;
-    
-}
+
 p::first-letter{
     padding-left: 1.5rem;
 }
@@ -258,3 +269,47 @@ footer ul.icon li{
     padding: 10px 10px 10px 10px;
     
 }
+@media (max-width: 600px){
+
+    /* ///////////////////// 
+            Header
+    /////////////////////*/
+    header{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    header nav{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul li{
+        padding: 1.7vw;
+    }
+    }
+    main img{
+        width: 100%;
+        display: block;
+    
+        
+    }
+    section.s5 div.p1 p{
+        display: block;
+        
+    
+        flex-wrap: wrap;
+       
+    }
+    section.s5 div.imgtext{
+        display: block;
+    }
+   body{
+    width: 100%;
+   }
+   section.s5 h1{
+    font-size: calc(30px + 1vw);
+   }
