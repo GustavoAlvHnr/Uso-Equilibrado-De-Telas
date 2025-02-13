@@ -87,7 +87,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-header div.burro a img{
+header div.logoUET a img{
     background-color: white;
     border-radius: 10vw;
 }
