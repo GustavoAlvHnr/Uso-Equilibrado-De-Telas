@@ -57,7 +57,7 @@ a {
 }
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #89bdd6;
     width: 100%;
     height: 100%;
 }
@@ -85,7 +85,7 @@ header{
     margin: 0 2vw;
     padding: 1.5vw;
     border-radius:  0 0 4vw 4vw;
-    background-color: black;
+    background-color: #29596c;
     display: flex;
     justify-content: space-between;
 }
@@ -100,7 +100,7 @@ header div.logoUET a img{
     top: 0;
     width: 250px;
     height: 100%;
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #29596c;
     padding-top: 60px;
     transition: 0.3s;
     box-shadow: 4px 10px rgba(0, 0, 0, 0.2);
@@ -116,7 +116,7 @@ header div.logoUET a img{
     transition: 1s;
 }
 .sidebar a:hover{
-    background-color: #74dbba;
+    background-color: #89bdd6;
     color: black;
     border: none;
 }
@@ -133,17 +133,12 @@ header div.logoUET a img{
     transition: 1s;
 }
 .menu-btn:hover{
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #89bdd6;
 }
 header div h4{
     color: white;
     margin-top: 4vw;
-    
     font-size: calc(15px + 1vw);
-    
-
-    
-
 }
 /*///////////////////////////
             Topo
@@ -154,28 +149,18 @@ main {
 section.s5 h1 {
     text-align: center;
     font-size: 3rem;
-    
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin: 5vw 0 5vw 0;
     border: 2px solid black;
     padding: 5vw;
-    
-    background-color: black;
+    background-color: #29596c;
     border-radius: 3vw;
     color: white;
-
-
-    
 }
 section.s5 {
-
     font-size: 1.2rem;
     margin-bottom: 7vw;
-    
-    
-
-    
 }
 
 section.s5 p.p9{
@@ -184,53 +169,28 @@ section.s5 p.p9{
     border-top: 3px solid black;
     padding: 4vw;
     color: white;
-    background-color: black;
+    background-color: #29596c;
     border-radius: 3vw;
-    
-
-    
-
-    
-    
-    
 }
 main section.s5 div.global div.imgtext{
-    
     display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 1.5rem;
-    background-color: black;
+    background-color: #29596c;
     color: white;
     padding: 5vw;
     border-radius: 2vw;
     border: 2px solid black;
-    
-
-
 }
-
-    
 section.s5 div.global div.imgtext img{
   width: 50%;
-  height: 50%;
-
- 
-    
-    
-    
-    
+  height: 50%;   
 }
-
 section.s5 div.imgtext p{
     margin-left: 40px;
     margin-bottom: 10px;
-    text-align: left;
-
-    
-
-
-    
+    text-align: left;   
 }
 
 main h4{
@@ -240,8 +200,9 @@ main h4{
     padding: 30px 0;
     border: 3px solid black;
     margin: 3vw 0;
-    background-color: black;
+    background-color: #29596c;
     color: white;
+    border-radius: 2vw;
     
 }
 main section.s0 div.por{
@@ -252,12 +213,10 @@ main section.s0 div.por{
    
     border: 3px dotted white;
     border-left: 5px solid white;
-    background-color: black;
+    background-color: #29596c;
     color: white;
     border-radius: 2vw;
-    padding: 2vw;
-    
-    
+    padding: 2vw;    
 }
 
 main section.s0 ul li{
@@ -267,7 +226,6 @@ main section.s0 ul li{
 
 }
     
-
 p::first-letter{
     padding-left: 1.5rem;
 }
@@ -277,7 +235,7 @@ p::first-letter{
 footer{
     padding: 2vw 0 3vw 0;
     text-align: center;
-    background-color: black;
+    background-color: #29596c;
     color: #ffffff;
     border-color: #ffffff;
     border-radius: 4vw 4vw 0 0;

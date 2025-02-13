@@ -58,7 +58,7 @@ a {
 }
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #89bdd6;
     width: 100%;
     height: 100%;
     color: white;
@@ -83,7 +83,7 @@ header{
     margin: 0 2vw;
     padding: 1.5vw;
     border-radius:  0 0 4vw 4vw;
-    background-color: black;
+    background-color: #29586c;
     display: flex;
     justify-content: space-between;
 }
@@ -98,7 +98,7 @@ header div.logoUET a img{
     top: 0;
     width: 250px;
     height: 100%;
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #29586c;
     padding-top: 60px;
     transition: 0.3s;
     box-shadow: 4px 10px rgba(0, 0, 0, 0.2);
@@ -114,7 +114,7 @@ header div.logoUET a img{
     transition: 1s;
 }
 .sidebar a:hover{
-    background-color: #74dbba;
+    background-color: #89bdd6;
     color: black;
     border: none;
 }
@@ -131,25 +131,20 @@ header div.logoUET a img{
     transition: 1s;
 }
 .menu-btn:hover{
-    background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
+    background-color: #89bdd6;
 }
 
 header div h4{
     color: white;
     margin-top: 4vw;
-    
     font-size: calc(15px + 1vw);
-    
-
-    
-
 }
 /*///////////////////////////
             Topo
 ///////////////////////////*/
 section{
     border-radius: 4vw;
-    background-color: black;
+    background-color: #29586c;
     margin: 2vw;
     padding: 1.5vw;
     text-align: center;
@@ -184,7 +179,6 @@ section.Historia p{
 ///////////////////////////*/
 section.referencia{
     text-align: center;
-    background-color: black;
     margin: 2vw;
     padding: 1.5vw;
     border-radius: 4vw;
@@ -208,7 +202,7 @@ section.referencia h2{
 footer{
     padding: 2vw 0 3vw 0;
     text-align: center;
-    background-color: black;
+    background-color: #29586c;
     color: #ffffff;
     border-color: #ffffff;
     border-radius: 4vw 4vw 0 0;

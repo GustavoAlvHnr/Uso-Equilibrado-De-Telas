@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa Equipe</title>
+    <title>Avalie seu uso de telas</title>
     <link rel="stylesheet" href="Css/formulario.css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
     <script src="JS/Script.js"></script>
 </head>
-
 <body>
     <header>
         <div class="logoUET">
@@ -34,6 +33,72 @@
             </div>
         </div>
     </header>
+<main>
+    <body>
+        <h1>
+            Formulário
+        </h1>
+        <form id="formula">
+            <section class="resultado">
+                <h2>Resultado:</h2>
+                <p id="nota">/10</p>
+                <p id="roteiro"></p>
+            </section>
+            <label for="name">Informe seu nome</label>
+            <p>
+                <input type="text" id="name" name="name">
+            </p>
+    
+            <label for="horas">Quantas horas por dia você utiliza telas? (Celular, computador, TV, etc.)</label>
+            <p>
+                <input type="number" id="horas" name="horas" min="0" max="24" required>
+            </p>
+    
+            <label>Você costuma fazer pausas ao usar telas por longos períodos?</label>
+            <ul>
+                <li><input type="radio" name="pausas" value="sim"> Sim</li>
+                <li><input type="radio" name="pausas" value="vezes"> Às vezes</li>
+                <li><input type="radio" name="pausas" value="nao"> Não</li>
+            </ul>
+    
+            <label>Você utiliza o celular antes de dormir?</label>
+            <ul>
+                <li><input type="radio" name="dormir" value="sim"> Sim</li>
+                <li><input type="radio" name="dormir" value="vezes"> Às vezes</li>
+                <li><input type="radio" name="dormir" value="nao"> Não</li>
+            </ul>
+    
+            <label>Você sente cansaço visual frequentemente?</label>
+            <ul>
+                <li><input type="radio" name="cansaco" value="sim"> Sim</li>
+                <li><input type="radio" name="cansaco" value="vezes"> Às vezes</li>
+                <li><input type="radio" name="cansaco" value="nao"> Não</li>
+            </ul>
+    
+            <label>Você usa filtros de luz azul ou modo noturno nos dispositivos?</label>
+            <ul>
+                <li><input type="radio" name="filtro" value="sim"> Sim</li>
+                <li><input type="radio" name="filtro" value="vezes"> Às vezes</li>
+                <li><input type="radio" name="filtro" value="nao"> Não</li>
+            </ul>
+    
+            <label>Qual é o principal motivo pelo qual você usa telas por muito tempo?</label>
+            <ul>
+                <li><input type="radio" name="motivo" value="trabalho"> Trabalho</li>
+                <li><input type="radio" name="motivo" value="estudo"> Estudos</li>
+                <li><input type="radio" name="motivo" value="redes"> Redes Sociais</li>
+                <li><input type="radio" name="motivo" value="outro"> Outros</li>
+            </ul>
+    
+            <label>Você já tentou reduzir o tempo de uso das telas?</label>
+            <ul>
+                <li><input type="radio" name="tentou" value="sim"> Sim, e funcionou</li>
+                <li><input type="radio" name="tentou" value="parcialmente"> Sim, mas não deu certo</li>
+                <li><input type="radio" name="tentou" value="nao"> Não</li>
+            </ul>
+    
+            <button type="button" onclick="escolhas(event)">ENVIAR</button>
+        </form>
 </main>
 <footer>
     <ul>
