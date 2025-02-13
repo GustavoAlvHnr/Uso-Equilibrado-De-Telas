@@ -133,6 +133,17 @@ header div.logoUET a img{
 .menu-btn:hover{
     background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
 }
+
+header div h4{
+    color: white;
+    margin-top: 4vw;
+    
+    font-size: calc(15px + 1vw);
+    
+
+    
+
+}
 /*///////////////////////////
             Topo
 ///////////////////////////*/

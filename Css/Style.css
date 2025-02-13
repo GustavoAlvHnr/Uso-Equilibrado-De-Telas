@@ -166,6 +166,16 @@ header div.logoUET a img{
 .menu-btn:hover{
     background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
 }
+header div h4{
+    color: white;
+    margin-top: 4vw;
+    
+    font-size: calc(15px + 1vw);
+    
+
+    
+
+}
 
 /*///////////////////////////
             Topo
@@ -178,8 +188,10 @@ main section{
     border-radius: 4vw;
 }
 main section h1{
-    padding: .6vw;
+    padding: .9vw;
     font-weight: bold;
+    padding-right: calc(10px + 1vw);
+
 }
 main section h2{
     padding: .6vw;

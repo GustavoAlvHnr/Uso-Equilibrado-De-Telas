@@ -142,6 +142,18 @@ header div.logoUET a img{
     background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
 }
 
+
+header div h4{
+    color: white;
+    margin-top: 4vw;
+    
+    font-size: calc(15px + 1vw);
+    
+
+    
+
+}
+
 div.banner{
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("https://www.termometrodapolitica.com.br/base/wp-content/uploads/c860e85a7d1c8992375e73dcb82e6128.jpeg");
     height: 40vw;

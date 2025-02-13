@@ -135,6 +135,16 @@ header div.logoUET a img{
 .menu-btn:hover{
     background-image: linear-gradient(to right, #74dbba, #74dadb,#74b9db);
 }
+header div h4{
+    color: white;
+    margin-top: 4vw;
+    
+    font-size: calc(15px + 1vw);
+    
+
+    
+
+}
 /*///////////////////////////
             Topo
 ///////////////////////////*/
@@ -144,12 +154,13 @@ main {
 section.s5 h1 {
     text-align: center;
     font-size: 3rem;
-    margin: 25px;
+    
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin: 5vw;
+    margin: 5vw 0 5vw 0;
     border: 2px solid black;
     padding: 5vw;
+    
     background-color: black;
     border-radius: 3vw;
     color: white;
@@ -161,7 +172,7 @@ section.s5 {
 
     font-size: 1.2rem;
     margin-bottom: 7vw;
-    line-height: 2rem;
+    
     
 
     
@@ -171,10 +182,10 @@ section.s5 p.p9{
     font-size: 1.6rem;
     margin-bottom: 4vw;
     border-top: 3px solid black;
-    padding-top: 3vw;
+    padding: 4vw;
     color: white;
     background-color: black;
-    border-radius: 4vw;
+    border-radius: 3vw;
     
 
     
@@ -183,7 +194,7 @@ section.s5 p.p9{
     
     
 }
-section.s5 div.imgtext{
+main section.s5 div.global div.imgtext{
     
     display: flex;
     margin-bottom: 20px;
@@ -200,17 +211,17 @@ section.s5 div.imgtext{
 }
 
     
-section.s5 div.imgtext img{
- width: 20vw;
+section.s5 div.global div.imgtext img{
+  width: 50%;
+  height: 50%;
+
  
     
     
     
     
 }
-section.s5 div.global div.imgtext{
-    display: flex;
-}
+
 section.s5 div.imgtext p{
     margin-left: 40px;
     margin-bottom: 10px;
@@ -301,18 +312,16 @@ footer ul.icon li{
     }
     header nav ul li{
         padding: 1.7vw;
+    
     }
-    }
-    section.s5 div.imgtext img{
+  main section.s5 div.global div.imgtext img{
         width: 100%;
         
-        display: block;
+    
     
         
     }
-    section.s5 div.global div.imgtext{
-        display: block;
-    }
+    
     section.s5 div.imgtext p{
         
         
@@ -321,7 +330,7 @@ footer ul.icon li{
         flex-wrap: wrap;
        
     }
-    section.s5 div.imgtext{
+   main section.s5 div.global div.imgtext{
         display: block;
     }
    body{
@@ -330,3 +339,4 @@ footer ul.icon li{
    section.s5 h1{
     font-size: calc(30px + 1vw);
    }
+}
