@@ -39,11 +39,7 @@
             Formulário
         </h1>
         <form id="formula">
-            <section class="resultado">
-                <h2>Resultado:</h2>
-                <p id="nota">/10</p>
-                <p id="roteiro"></p>
-            </section>
+           
             <label for="name">Informe seu nome</label>
             <p>
                 <input type="text" id="name" name="name">
@@ -96,8 +92,15 @@
                 <li><input type="radio" name="tentou" value="parcialmente"> Sim, mas não deu certo</li>
                 <li><input type="radio" name="tentou" value="nao"> Não</li>
             </ul>
-    
+            <div class="junto">
             <button type="button" onclick="escolhas(event)">ENVIAR</button>
+            <button type="reset">RESETAR</button>
+            </div>
+            <section class="resultado">
+                <h2>Resultado:</h2>
+                <p id="nota">/10</p>
+                <p id="roteiro"></p>
+            </section>
         </form>
 </main>
 <footer>

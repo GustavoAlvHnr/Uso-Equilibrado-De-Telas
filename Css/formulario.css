@@ -86,6 +86,7 @@ header{
     background-color: #29586c;
     display: flex;
     justify-content: space-between;
+
 }
 header div.logoUET a img{
     background-color: white;
@@ -133,7 +134,91 @@ header div.logoUET a img{
 .menu-btn:hover{
     background-color: #89bdd6;
 }
+header div h4{
+    color: white;
+    margin-top: 4vw;
+    font-size: calc(15px + 1vw);
+}
 
+/*/////////////formulario/////////////////////////////////////*/
+
+main {
+    
+    
+    max-width: 500px;
+    margin: 0 auto;
+
+    padding: 2vw;
+    
+}
+main h1{
+    background-color:#29586c;
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #5a8194;
+    border-radius: 8px;
+}
+
+
+#name{
+    background-color: #29586c;
+    margin-bottom: 2vw;
+    color: white;
+}
+label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            color: black;
+            background-color: #29586c;
+            padding: 0.8vw;
+            border-radius: 2vw;
+}
+input[type="text"],
+textarea {
+    
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    color: white;
+    background-color:#29586c ;
+    margin: 1vw 0;
+  }
+  
+main ul li{
+    color: black;
+} 
+main button {
+    display: block;
+    
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #29586c;
+    color: white;
+
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1vw  ;
+}
+.junto{
+    display: flex;
+    
+}
 
 /*///////////////////////////
             Footer
@@ -156,3 +241,24 @@ footer ul.icon li{
     padding: 10px 10px 10px 10px;
     
 }
+
+/*///////////////responsivo////////////////////////////*/
+@media (max-width: 600px){
+
+    header{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    header nav{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul{
+        display: block;
+        justify-content: center;
+    }
+    header nav ul li{
+        padding: 1.7vw;
+    }
+    }
