@@ -259,4 +259,7 @@ footer ul.icon li{
     header nav ul li{
         padding: 1.7vw;
     }
+    section.topo img{
+        width: 100%;
+    }
     }
