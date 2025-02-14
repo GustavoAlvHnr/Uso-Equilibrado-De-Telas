@@ -84,9 +84,8 @@ document.addEventListener("click", function(event){
         //cansaço!!!!!
         switch(cansaco){
             case "sim":
-                mensagem += `Isso pode ser causado pelas diversas horas seguidas em frente a uma tela, ou por utilizar antes de ir dormir, tente diminuir esses usos. Caso isso persista procure ajuda profissional<<br>b;
-            breakr>`;
-            brea
+                mensagem += `Isso pode ser causado pelas diversas horas seguidas em frente a uma tela, ou por utilizar antes de ir dormir, tente diminuir esses usos. Caso isso persista procure ajuda profissional<br>b`;
+            break
             case "vezes":
                 contador ++;
                 mensagem += `Tente diminuir o uso das telas antes de dormir, ou utilize o modo noturno/filtro azul para diminuir esses sintomas<br>`;
@@ -113,7 +112,7 @@ document.addEventListener("click", function(event){
        switch(motivo){
             case "trabalho":
                 mensagem += `Caso você trabalhe utilizando computadores, ou outros tipos de telas, e estiver com algum problema devido ao uso delas, tente conversar com seu superior, e consulte um profissional<br>`;
-            brea
+            break
             case "estudo":
                 mensagem += `Caso tenha disponibilidade tente ler livros, ou artigos sobre o assunto que estiver estudando, faça mapa mentais e anotações e tente substituir o celular caso consiga<br>`;
             break
