@@ -179,7 +179,7 @@ label {
             display: block;
             margin-top: 20px;
             font-weight: bold;
-            color: black;
+            color: white;
             background-color: #29586c;
             padding: 0.8vw;
             border-radius: 2vw;
@@ -201,7 +201,7 @@ input[type="number"] {
   }
   
 main ul li{
-    color: black;
+    color: white;
 } 
 main button {
     display: block;
@@ -218,7 +218,7 @@ main button {
 
 }
 section.resultado{
-    color: black;
+    color: white;
 }
 
 .junto{
